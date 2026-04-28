@@ -26,7 +26,7 @@ if (!isset($_SESSION['cart'])) {
     $_SESSION['cart'] = [];
 }
 
-// Add product to cart
+
 if (isset($_POST['product'])) {
     $product = $_POST['product'];
 
